@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+ /* root is used to select entire */
+
+:root {
+   --primary-color : red;
+     --off-white:#f3f4f6 ;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+/* container */
+
+.container{
+    padding: 0rem 1rem; 
+    
+}
+
+.container-centre{
+    max-width: 600px;
+    margin: auto;
+}
+
+ /* links */
+
+ .link{
+     box-sizing: border-box;
+     box-sizing: border-box;
+     text-decoration: none;
+     padding: 0.5rem  1rem;
+ }
+
+ .primary-link{
+     background-color: var(--primary-color);
+     border-radius: 0.5rem;
+     color: white; 
+     max-width: 140px; 
+     margin: 1rem 1rem 1rem 0rem;  
+ }
+
+ .secondary-link{
+     color: var(--primary-color);
+     border-radius: 0.5rem;
+     border: 1px solid var(--primary-color); 
+     max-width: 140px; 
+     margin: 1rem 1rem 1rem 0rem; 
+ }
+
+ /* lists */
+
+ .list-no-bullet{
+     list-style: none;
+     padding-inline-start: 0px;
+     
+ }
+
+ .list-item-inline{
+     display: inline;
+     padding: 0rem 0.5rem;  
+ }
+
+ /* nav */
+
+ .navigation{
+     background-color: var(--primary-color);
+     color: white;
+     border-bottom-left-radius: 1rem;
+     padding: 1rem;
+ }
+
+ .navigation .nav-brand a{
+     font-weight: bold;
+     font-size: bold;
+     color: inherit;
+ }
+
+.navigation .nav-link{
+    color: white;
+}
+
+.navigation .list-no-bullet{
+    text-align: right;
+    
+}
+
+.active-link{
+    font-weight: bold;
+}
+ 
+/* header */
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+   display: block;
+    text-align: center;
+   margin: auto;
+   
+}
+
+.hero .hero-heading{
+    text-align: center;
+    color: rgb(12, 191, 223);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.heading-change{
+    color: tomato;
+}
+
+/* section */
+
+.section   {
+   padding: 2rem; 
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+footer .link {
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.list-pad{
+     padding: 2rem;
+}
